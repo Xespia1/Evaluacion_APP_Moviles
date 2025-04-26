@@ -9,7 +9,7 @@
     android:background="@color/material_dynamic_tertiary95">
 
     <TextView
-        android:text="¡Bienvenido a la app!"
+        android:text="@string/bienvenido_a_la_app"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="32dp"
@@ -18,7 +18,7 @@
 
     <Button
         android:id="@+id/btnVolver"
-        android:text="Volver al Login"
+        android:text="@string/volver_al_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/material_dynamic_neutral_variant70"/>
